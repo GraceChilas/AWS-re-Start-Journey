@@ -1,5 +1,5 @@
 # AWS-re-Start-Journey
-# AWS Cloud Practitioner Journey 🚀  
+# AWS Cloud Practitioner Journey  
 **Praesignis Cohort**
 
 This repository documents my learning journey as part of the **AWS Cloud Practitioner cohort with Praesignis**.  
@@ -54,13 +54,13 @@ Throughout this cohort, I will be covering:
   - Well-Architected Framework (overview)
 
 ---
-
-## Repository Structure
-
-```bash
-.
-├── notes/            # Weekly notes and summaries
-├── labs/             # Hands-on labs and exercises
-├── diagrams/         # Architecture and concept diagrams
-├── reflections/      # Weekly learning reflections
-└── resources/        # Useful links and study materials
+- **Learning Reflections**
+    - Each week i will reflect on:
+    - Key concepts learned
+    - Challenges encountered
+    - Practical insights gained
+    - How the knowledge applies to compliance, risk and governance
+ 
+---
+      
+This repository is part of my long-term goal to build a career at the intersection of law, cloud technology and isk management.
