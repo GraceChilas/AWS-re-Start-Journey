@@ -7,6 +7,7 @@ This project demonstrates the design of the cloud architecture using AWS service
 - Why each AWS service was chosen
 - 
 - How the architecture meets the 5 requirements
+  
   *High Avaiability
   *scalability
   *Performance
