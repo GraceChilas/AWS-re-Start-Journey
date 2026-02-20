@@ -184,11 +184,17 @@ Secure authentication using Cognito
 📊 Benefits of This Architecture
 
 ✔ Improved operational efficiency
+
 ✔ High scalability
+
 ✔ Increased reliability
+
 ✔ Secure customer authentication
+
 ✔ Reduced infrastructure management
+
 ✔ Cost-effective static website hosting
+
 
 🚀 Future Enhancements
 
