@@ -1,4 +1,4 @@
-# Security SimuLearn
+# Core Security Concepts SimuLearn
 
 This document represents completion of the AWS Security SimuLearn module.
 
