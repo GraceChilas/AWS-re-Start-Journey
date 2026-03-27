@@ -1,0 +1,33 @@
+# Networking Concepts Simulearn
+
+This document highlights the successful completion of the Networking Concepts Certificate, which focuses on foundational networking knowledge and practical skills required to understand, design, and troubleshoot network systems.
+The certification demonstrates the ability to work with core networking concepts essential for IT, cloud, and cybersecurity roles.
+
+## Skills Covered
+
+- Understanding network architectures and models (OSI & TCP/IP)
+- Configuring IP addressing and subnetting
+- Identifying and troubleshooting network issues
+- Understanding routing and switching concepts
+- Working with common networking protocols
+- Basic network security principles
+
+## Practical Experience
+
+During this certification, I worked on:
+
+- Configuring IP addresses and subnet masks
+- Testing connectivity between devices
+- Simulating network topologies
+- Troubleshooting network connectivity issues
+- Understanding how data flows across networks
+
+## Learning Outcomes
+
+By completing this certificate, I was able to:
+
+- Explain how networks operate
+- Configure and troubleshoot basic network setups
+- Understand how devices communicate over networks
+- Apply networking knowledge in cloud and IT environments
+
