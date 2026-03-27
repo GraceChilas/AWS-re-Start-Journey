@@ -1,6 +1,7 @@
 # Core Security Concepts SimuLearn
 
-This document represents completion of the AWS Security SimuLearn module.
+Security SimuLearn is a hands-on, simulation-based learning project designed to teach core cybersecurity concepts through practical scenarios. It allows learners to interact with real-world security situations such as threat detection, incident response, and system hardening in a controlled environment.
+The goal of this project is to bridge the gap between theoretical knowledge and real-world application by providing guided exercises and scenarios.
 
 ## Skills Covered
 - Shared Responsibility Model
