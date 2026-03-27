@@ -49,10 +49,10 @@ Feel free to explore each document for more details.
 ## Future Goals
 
 - Earn advanced cloud certifications
-- Expand into DevOps and automation
+- Expand into governance, risk and compliance
 - Deepen cybersecurity expertise
 - Build real-world projects to complement certifications
 
-This portfolio represents my ongoing journey in technology, with a focus on building strong foundational and practical skills.
+This portfolio represents my ongoing journey in technology, with a focus of bridging law, technology, and cloud governances while building strong foundational and practical skills.
 
 
