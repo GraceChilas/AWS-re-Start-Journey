@@ -19,7 +19,7 @@ Troubleshooting query errors
 
 ## Learning Outcomes
 
-By completing this certificate, I was able to:
+By completing this certificate, I am able to:
 
 - Build and manage structured databases
 - Write efficient and accurate SQL queries
