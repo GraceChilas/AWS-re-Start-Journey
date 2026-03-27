@@ -19,7 +19,7 @@ The goal of this journey is to:
 
 ## About the Learner
 
-- **Name:** Grace  
+- **Name:** Grace Chilapondwa
 - **Background:** Law graduate transitioning into cloud compliance & risk  
 - **Cohort:** Praesignis – AWS Cloud Practitioner  
 - **Focus Area:** Bridging **law, technology, and cloud governance**
@@ -63,4 +63,4 @@ Throughout this cohort, I will be covering:
  
 ---
       
-This repository is part of my long-term goal to build a career at the intersection of law, cloud technology and isk management.
+This repository is part of my long-term goal to build a career at the intersection of law, cloud technology and risk management.
