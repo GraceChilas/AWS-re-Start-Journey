@@ -1,129 +1,53 @@
+**BASH SCRIPT SHELL**
 
-# EC2 & Linux Commands
+**USING SSH TO CONNECT TO LINUX**
 
-## Connecting to EC2 Using PuTTY
+1 - I select the **Download PPK** button and save the **_labsuser.ppk_** file.
 
-1. I select the **Download PPK** button and save the `labsuser.ppk` file. 
+2 - I made a note of the **Public IP address**.
 
-2. I make a note of the **Public IP address**.  
+3 - I downloaded **PuTTY** so I can SSH into the Amazon EC2 instance.
 
-3. I download **PuTTY** so I can SSH into my Amazon EC2 instance.  
+4 - I configured my PuTTY session by following the directions provided in the guide to connect to my Linux instance using PuTTY. Top of FormBottom of Form
 
-4. I configure my PuTTY session by following the directions provided in the guide to connect to my Linux instance using PuTTY.  
+**TASK 1: CREATE AN ALIAS FOR A BACKUP OPERATION**
 
+I need to create an alias that gives me the ability to back up whatever path I provide.
 
----
+1 - To validate that I am in the home folder in the terminal, I entered the **_pwd_** command and pressed Enter.
 
-## Creating a Backup Alias
+2 - To create an alias called backup, I entered the following command: **_alias backup='tar -cvzf '_** and pressed Enter.
 
-Specifically, I create an alias that gives me the ability to back up whatever path I provide.
+3 - To use the backup alias to back up the CompanyA folder, I entered the following command: **_backup backup_companyA.tar.gz CompanyA_** and pressed Enter.
 
-1. To validate that I am in the home folder, I enter:
-   ```bash
-   pwd
-````
+4 - To verify that the archive is created, I entered the **_ls_** command and press Enter.
 
-2. To create an alias called `backup`, I enter:
+**TASK 2: EXPLORE AND UPDATE THE PATH ENVIRONMENT VARIABLE**
 
-   ```bash
-   alias backup='tar -cvzf '
-   ```
+5 - In this task, I display the PATH environment variable. I then update the variable and add a new directory in which I can place executables.
 
-3. To back up the `CompanyA` folder, I enter:
+6 - To navigate to the bin folder in the home CompanyA directory, I entered the following command: **_cd /home/ec2-user/CompanyA/bin_** and press Enter.
 
-   ```bash
-   backup backup_companyA.tar.gz CompanyA
-   ```
+7 - To run the **_hello.sh script_**, I entered the following command: **_./hello.sh_** and press Enter.
 
-4. To verify that the archive is created, I enter:
+8 - To navigate to the parent folder, I entered the following command: **_cd .._** and press Enter.
 
-   ```bash
-   ls
-   ```
+9 - To run the hello.sh script again, I entered the following command: **_./bin/hello.sh_** and press Enter.
 
----
+10 - To run the **_hello.sh_** script, I entered the following command: **_hello.sh_** and press enter.
 
-## Explore and Update the PATH Environment Variable
-
-In this task, I display the PATH environment variable, update it, and add a new directory for executables.
-
-1. To navigate to the `bin` folder:
-
-   ```bash
-   cd /home/ec2-user/CompanyA/bin
-   ```
-
-2. I can verify my location using:
-
-   ```bash
-   pwd
-   ```
-
-   Then navigate using:
-
-   ```bash
-   cd CompanyA/bin
-   ```
-
-3. To run the script:
-
-   ```bash
-   ./hello.sh
-   ```
-
-4. To go to the parent directory:
-
-   ```bash
-   cd ..
-   ```
-
-5. To run the script again:
-
-   ```bash
-   ./bin/hello.sh
-   ```
-
-6. I attempt to run the script directly:
-
-   ```bash
-   hello.sh
-   ```
 - **Expected Output**:
 - \[ec2-user@ CompanyA\]\$ hello.sh
 - bash: hello.sh: command not found
 
-7. I analyzed the three different ways I tried to run the **hello.sh script**.
-- In the next step, I will figure out why the third run failed and how to solve this issue.
+11 - I analyzed the three different ways I tried to run the **hello.sh script**. In the next step, I will figure out why the third run failed and how to solve this issue.
 
-8. To display the PATH variable:
+12 - To display the value of the PATH variable, I entered the following command***: echo \$PATH*** and press Enter.
 
-   ```bash
-   echo $PATH
-   ```
+13 - I navigate to the **/home/ec2-user/CompanyA/**bin folder and entered **hello.sh** to run the script.
 
-9. I navigate back and run:
+14 - I can also enter **/home/ec2-user/CompanyA/bin/hello.sh** from any folder.
 
-   ```bash
-   cd /home/ec2-user/CompanyA/bin
-   hello.sh
-   ```
+15 - To add the **/home/ec2-user/CompanyA/bin** folder to the PATH variable, I entered the following command: **_PATH=\$PATH:/home/ec2-user/CompanyA/bin_** and press Enter.
 
-10. I can also run it from anywhere using:
-
-    ```bash
-    /home/ec2-user/CompanyA/bin/hello.sh
-    ```
-
-11. To add the directory to PATH:
-
-    ```bash
-    PATH=$PATH:/home/ec2-user/CompanyA/bin
-    ```
-
-12. I test it again:
-
-    ```bash
-    hello.sh
-    ```
-
-```
+16 - To try running the **hello.sh** script again, I entered **_hello.sh_** and press Enter.
