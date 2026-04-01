@@ -88,8 +88,12 @@ In this task, I display the PATH environment variable, update it, and add a new 
    ```bash
    hello.sh
    ```
+- **Expected Output**:
+- \[ec2-user@ CompanyA\]\$ hello.sh
+- bash: hello.sh: command not found
 
-7. I analyze why this method fails and investigate further.
+7. I analyzed the three different ways I tried to run the **hello.sh script**.
+- In the next step, I will figure out why the third run failed and how to solve this issue.
 
 8. To display the PATH variable:
 
