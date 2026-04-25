@@ -9,7 +9,7 @@ This project demonstrates hosting a static website using AWS services.
 - Deployment principles
 
 After Hours Cafe – AWS Cloud Migration Project
-📌 Project Overview
+## 📌 Project Overview
 
 After Hours Cafe is a beloved local coffee shop facing operational challenges due to outdated on-premises systems and limited online presence. To improve efficiency, scalability, and customer engagement, the cafe migrated its IT infrastructure to the cloud using Amazon Web Services (AWS).
 
@@ -88,7 +88,7 @@ The architecture is divided into the following core layers:
 
 ---
 
-5️⃣ Migration Services
+## 5️⃣ Migration Services
 
 - AWS Database Migration Service
 - Migrates on-premises databases to AWS
@@ -99,7 +99,7 @@ The architecture is divided into the following core layers:
 
 ---
 
-🌐 Website Hosting
+## 🌐 Website Hosting
 
 The FreshlyGround website is hosted using:
 
@@ -117,7 +117,7 @@ This approach is:
 
 ---
 
-💰 Cost Considerations
+## 💰 Cost Considerations
 
 Estimated costs depend on:
 
@@ -135,7 +135,7 @@ Cost optimization strategies:
 
 ---
 
-🔐 Security & Best Practices
+## 🔐 Security & Best Practices
 
 - IAM roles applied to EC2 and Lambda
 - Encryption at rest (S3, EBS, RDS)
@@ -145,7 +145,7 @@ Cost optimization strategies:
 
 ---
 
-📊 Benefits of This Architecture
+## 📊 Benefits of This Architecture
 
 ✔ Improved operational efficiency
 ✔ High scalability
@@ -156,7 +156,7 @@ Cost optimization strategies:
 
 ---
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 
 - Implement CI/CD using AWS CodePipeline
 - Add CloudFront for global content delivery
@@ -166,7 +166,7 @@ Cost optimization strategies:
 
 ---
 
-📁 Project Deliverables
+## 📁 Project Deliverables
 
 - AWS Architecture Diagram
 - README Documentation
