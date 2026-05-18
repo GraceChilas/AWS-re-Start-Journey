@@ -2,7 +2,7 @@
 # AWS Cloud Practitioner Certification Journey
 
 ## About Me
-I am a law graduate with a growing passion for cloud computing, technology, and governance. My transition into tech began through the AWS re/Start program, where I developed foundational cloud skills and gained exposure to real-world cloud concepts, professional development, and career readiness training.
+I am a law graduate with a growing passion for cloud computing, technology, and governance. My transition into tech began through the AWS re/Start program, with Praesignis, where I developed foundational cloud skills and gained exposure to real-world cloud concepts, professional development, and career readiness training.
 
 My journey into cloud technology reflects my interest in combining analytical thinking, compliance awareness, and problem-solving with modern technology solutions.
 
